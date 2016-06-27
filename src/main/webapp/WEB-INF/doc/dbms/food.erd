@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net.java.amateras.db.visual.model.RootModel>
+  <listeners serialization="custom">
+    <java.beans.PropertyChangeSupport>
+      <default>
+        <source class="net.java.amateras.db.visual.model.RootModel" reference="../../../.."/>
+        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+      </default>
+      <null/>
+    </java.beans.PropertyChangeSupport>
+  </listeners>
+  <children>
+    <net.java.amateras.db.visual.model.NoteModel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.db.visual.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>150</height>
+        <width>221</width>
+        <x>23</x>
+        <y>18</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <content>회원가입 &#xd;
+회원 : U_Num(회원번호 PK)&#xd;
+         U_ID (아이디) &#xd;
+         U_Pwd  (비밀번호)&#xd;
+         U_PwdCheck (비밀번호확인)&#xd;
+         U_Name (이름)&#xd;
+         U_TelNum (전화번호)&#xd;
+         U_E-Mail (이메일)&#xd;
+         Division(개발자,일반회원)</content>
+    </net.java.amateras.db.visual.model.NoteModel>
+    <net.java.amateras.db.visual.model.NoteModel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.db.visual.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>204</height>
+        <width>261</width>
+        <x>265</x>
+        <y>20</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <content>회원가입 &#xd;
+사업자 : L_Num(사업자 회원번호 PK)&#xd;
+            L_ID (아이디) &#xd;
+            L_Pwd  (비밀번호)&#xd;
+            L_PwdCheck (비밀번호확인)&#xd;
+            L_Name (사업자 이름)&#xd;
+            L_TelNum (개인 전화번호)&#xd;
+            L_CompanyTelNum(업체 전화번호)&#xd;
+            L_E-Mail (이메일)&#xd;
+            Company(업체명)&#xd;
+            Company_Num(사업자 번호)&#xd;
+            Company_Add(업체 주소)</content>
+    </net.java.amateras.db.visual.model.NoteModel>
+    <net.java.amateras.db.visual.model.NoteModel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.db.visual.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>211</height>
+        <width>236</width>
+        <x>24</x>
+        <y>261</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <content>회원 커뮤니티 게시판&#xd;
+추천게시판&#xd;
+recommend_Num (게시글 번호 - PK)&#xd;
+recommend_Title (제목)&#xd;
+recommend_Content (내용)&#xd;
+recommend_File (첨부파일,이미지)&#xd;
+recommend_FileSize (파일사이즈)&#xd;
+recommend_ThumbFile (이미지 축소파일)&#xd;
+recommend_GoodCnt (추천수)&#xd;
+recommend_BadCnt (비추천수)&#xd;
+recommend_Cnt (조회수)&#xd;
+recommend_rDate (등록일)</content>
+    </net.java.amateras.db.visual.model.NoteModel>
+  </children>
+  <dommains/>
+  <dialectName>hsqldb</dialectName>
+  <logicalMode>false</logicalMode>
+  <jarFile></jarFile>
+  <jdbcDriver>sun.jdbc.odbc.JdbcOdbc</jdbcDriver>
+  <jdbcUrl></jdbcUrl>
+  <jdbcUser></jdbcUser>
+  <jdbcPassword></jdbcPassword>
+  <jdbcSchema></jdbcSchema>
+  <jdbcCatalog></jdbcCatalog>
+  <includeView>false</includeView>
+  <fontData></fontData>
+</net.java.amateras.db.visual.model.RootModel>
