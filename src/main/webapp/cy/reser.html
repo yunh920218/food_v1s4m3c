@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<link href="../css/style.css" rel="Stylesheet" type="text/css">
+<script type="text/JavaScript"
+  src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="../js/jquery.cookie.js"></script>
+<script type="text/javascript" src="../js/tool.js"></script>
+
+<style type="text/css">
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#reserv_header {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#reserv_header>#title {
+  position: absolute;
+  left: 20px;
+  top: 30px;
+}
+
+#reserv_nav>ul {
+  overflow: hidden;
+}
+
+#reserv_nav>ul>li {
+  float: left;
+}
+
+#reserv_nav>ul>li>a {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+#reserv_nav>ul>li>a:hover {
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+#reserv_nav>ul>li:first-child>a {
+  border-radius: 10px 0 0 10px;
+}
+
+#reserv_nav>ul>li:last-child>a {
+  border-radius: 0 10px 10px 0;
+}
+
+#content{
+  width: 850px;
+  height: 500px;
+  margin: 30px;
+  overflow: hidden;
+}
+
+#content > #reserv_section{
+  width: 700px;
+  float: left;
+}
+
+ #content > #reserv_aside{
+  width: 200px;
+  float: right;
+}
+
+.reserv_flu{
+    margin: 20px;
+  }
+
+
+
+</style>
+</head>
+
+<body>
+  <header id="reserv_header">
+    <div id="title">
+      <h1>맛집예약</h1>
+    </div>
+    <nav id="reserv_nav">
+      <ul>
+        <li><a href="#">당일예약</a> <!--회원 -->
+        <li><a href="#">예약확인</a> <!--회원 -->
+        <li><a href="#">예약목록</a> <!-- 관리자 -->
+      </ul>
+    </nav>
+  </header>
+
+  <DIV id="content">
+    <section id="reserv_section"></section>
+      <fieldset id="reserv_flu">
+        <legend>당일예약 (달력넣을자리)</legend>
+          <ul>2016년 7월 1일</ul>
+          <ul>2016년 7월 2일</ul>
+          <ul>2016년 7월 3일</ul>
+          <ul>2016년 7월 4일</ul>
+      </fieldset> <br>
+       <fieldset id="reserv_flu">
+        <legend>실시간현황</legend>
+          <ul>2016년 7월 1일 : 예약불가</ul>
+          <ul>2016년 7월 2일 : 예약가능</ul>
+          <ul>2016년 7월 3일 : 예약가능</ul>
+          <ul>2016년 7월 4일 : 예약불가</ul>
+      </fieldset> <br>
+      
+    <aside id="reserv_aside"></aside>
+  </DIV>
+
+  <footer></footer>
+
+</body>
+</html>
