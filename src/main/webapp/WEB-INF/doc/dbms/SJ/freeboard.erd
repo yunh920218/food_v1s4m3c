@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<net.java.amateras.db.visual.model.RootModel>
+  <listeners serialization="custom">
+    <java.beans.PropertyChangeSupport>
+      <default>
+        <source class="net.java.amateras.db.visual.model.RootModel" reference="../../../.."/>
+        <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+      </default>
+      <null/>
+    </java.beans.PropertyChangeSupport>
+  </listeners>
+  <children>
+    <net.java.amateras.db.visual.model.NoteModel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.db.visual.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>390</height>
+        <width>400</width>
+        <x>57</x>
+        <y>14</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <content>회원 커뮤니티 게시판&#xd;
+추천게시판&#xd;
+fb_Num (게시글 번호 - PK)&#xd;
+fb_Title (제목)&#xd;
+fb_Id    (아이디) or fb_Writter (글쓴이)&#xd;
+fb_Content (내용)&#xd;
+fb_Local (지역)&#xd;
+fb_File (첨부파일,이미지)&#xd;
+fb_FileSize (파일사이즈)&#xd;
+fb_ThumbFile (이미지 축소파일)&#xd;
+fb_LikeCnt (추천수)&#xd;
+fb_DisLikeCnt (비추천수)&#xd;
+fb_Cnt (조회수)&#xd;
+fb_Rdate (등록일)</content>
+    </net.java.amateras.db.visual.model.NoteModel>
+    <net.java.amateras.db.visual.model.NoteModel>
+      <listeners serialization="custom">
+        <java.beans.PropertyChangeSupport>
+          <default>
+            <source class="net.java.amateras.db.visual.model.NoteModel" reference="../../../.."/>
+            <propertyChangeSupportSerializedDataVersion>2</propertyChangeSupportSerializedDataVersion>
+          </default>
+          <null/>
+        </java.beans.PropertyChangeSupport>
+      </listeners>
+      <constraint>
+        <height>409</height>
+        <width>380</width>
+        <x>50</x>
+        <y>443</y>
+      </constraint>
+      <sourceConnections/>
+      <targetConnections/>
+      <content>회원 커뮤니티 게시판&#xd;
+추천게시판&#xd;
+댓글 관리&#xd;
+&#xd;
+fb_Rno (댓글 번호 -PK)&#xd;
+fb_Id   (아이디) or fb_Writter (글쓴이)&#xd;
+fb_ReContent (댓글내용)&#xd;
+fb_RLikeCnt (댓글추천수)&#xd;
+fb_RDisLikeCnt (댓글 비추천수)&#xd;
+fb_Redate(작성시간)</content>
+    </net.java.amateras.db.visual.model.NoteModel>
+  </children>
+  <dommains/>
+  <dialectName>hsqldb</dialectName>
+  <logicalMode>false</logicalMode>
+  <jarFile></jarFile>
+  <jdbcDriver>sun.jdbc.odbc.JdbcOdbc</jdbcDriver>
+  <jdbcUrl></jdbcUrl>
+  <jdbcUser></jdbcUser>
+  <jdbcPassword></jdbcPassword>
+  <jdbcSchema></jdbcSchema>
+  <jdbcCatalog></jdbcCatalog>
+  <includeView>false</includeView>
+  <fontData></fontData>
+</net.java.amateras.db.visual.model.RootModel>
