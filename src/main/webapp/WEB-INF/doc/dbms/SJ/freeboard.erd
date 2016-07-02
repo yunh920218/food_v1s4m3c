@@ -23,8 +23,8 @@
       <constraint>
         <height>390</height>
         <width>400</width>
-        <x>57</x>
-        <y>14</y>
+        <x>28</x>
+        <y>164</y>
       </constraint>
       <sourceConnections/>
       <targetConnections/>
@@ -56,8 +56,8 @@ fb_Rdate (등록일)</content>
       <constraint>
         <height>409</height>
         <width>380</width>
-        <x>50</x>
-        <y>443</y>
+        <x>443</x>
+        <y>169</y>
       </constraint>
       <sourceConnections/>
       <targetConnections/>
